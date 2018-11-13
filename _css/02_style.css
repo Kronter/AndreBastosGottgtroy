@@ -1,0 +1,97 @@
+
+/* --------------- DESIGN NOTES ----------------
+This site was designed by XXXXXXXXXXXXX
+
+WHITE = #FFF
+BLACK = #000
+
+ -------------------------------------------- */
+
+.float-left { float:left}
+.float-right { float:right}
+
+.clear-both { clear:both}
+.clear-right { clear:right}
+.clear-left { clear:left}
+
+.inline { display:inline}
+.display-none { display:none}
+.display-block { display:block}
+
+.overflow_hidden { overflow:hidden}
+.overfow_scroll { overflow:scroll}
+.overflow_auto { overflow:auto }
+
+.relative{ position:relative; }
+.absolute{ position:absolute; }
+.fixed { position:fixed;}
+
+.center {margin:0 auto;}
+
+
+/* --------------- COMMON SELECTORS ------------------- */
+*{ margin:0; padding:0; outline:none; border:none; }
+
+body {-webkit-font-smoothing:antialiased;
+		font:normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color:#232525; Padding:70px 0px 0px 0px; }
+.wrapper { width:940px}
+
+
+
+
+
+
+
+
+
+p{ }
+
+h1, h2, h3, h4, h5, h6 {}
+h1 { }
+h2 { }
+h3 { }
+h4 { }
+h5 { }
+h6 { }
+
+/* --------------- LISTS ------------------- */
+
+ul { }
+li { }
+ol { }
+
+
+/* --------------- Page Structure ------------------- */
+
+header {}
+nav {}
+section {}
+article {}
+aside {}
+footer {}
+
+
+/* --------------- IMAGES ------------------- */
+img {}
+
+/* --------------- PSEUDO-CLASS SELECTORS ------------------- */
+a:link { }
+a:visited { }
+a:hover { }
+a:focus { }
+a:active { }
+
+header nav a:link { }
+header nav a:visited { }
+header nav a:hover { }
+header nav a:focus { }
+header nav a:active { }
+
+footer nav a:link { }
+footer nav a:visited { }
+footer nav a:hover { }
+footer nav a:focus { }
+footer nav a:active { }
+
+

@@ -1,0 +1,74 @@
+
+
+.slider-container {width:940px; height:370px; display:block;  }
+#slider {width:940px; height:350px; padding:0px 0px 20px 0px; overflow:hidden}
+
+			
+.slidesjs-container { overflow:hidden; position:relative}
+
+
+<!-- NAVIGATION CONTROLLERS-->
+.slidesjs-navigation {}
+
+
+a.slidesjs-previous {margin:0px 10px 0px 0px; width:13px; height:19px; display:block; float:left; text-indent:-9999px;
+					background-image:url('../_images/slider/btns-next-prev.png'); background-repeat:no-repeat; 
+					background-position:0px 0px;}
+a.slidesjs-previous:hover {background-position:0px -19px;}	
+
+
+a.slidesjs-next {margin:0px 10px 0px 0px; width:12px; height:19px; display:block; float:left; text-indent:-9999px; 
+				background-image:url('../_images/slider/btns-next-prev.png'); background-repeat:no-repeat; 
+				background-position:-13px 0px}
+a.slidesjs-next:hover {background-position:-13px -19px;}
+
+
+ a.slidesjs-play {margin:0px 10px 0px 0px; width:15px; height:19px; display:block; float:left; text-indent:-9999px; 
+				background-image:url('../_images/slider/btns-next-prev.png'); background-repeat:no-repeat;  
+				background-position:-26px 0px; overflow:hidden;  }
+ a.slidesjs-play:hover { background-position:-26px -19px; }
+
+
+
+ a.slidesjs-stop {margin:-3px 10px 0px 0px; width:15px; height:19px; display:block; float:left; text-indent:-9999px;   
+				background-image:url('../_images/slider/btns-next-prev.png'); background-repeat:no-repeat;
+				background-position:-43px 0px; overflow:hidden; margin:1px 0px 0px 0px;  }
+ a.slidesjs-stop:hover { background-position:-43px -19px; }
+
+
+
+<!-- PAGINATION CONTROLLERS-->
+#slider ul {float:right;}
+.slidesjs-pagination {float:right; list-style:none;  }
+.slidesjs-pagination li { float:left; margin:0px 1px; list-style:none; }
+
+.slidesjs-pagination-item a {margin:-10px 0px 0px 0px; width:13px; height:13px; display:block; text-indent:-9999px;  
+						background-image: url('../_images/slider/pagination.png'); background-repeat:no-repeat;
+						background-position:0px 0px; float:left; overflow:hidden;padding:0; outline:none; border:none;  }
+
+.slidesjs-pagination-item a.active,
+.slidesjs-pagination-item a:hover.active { background-position:0 -13px }
+.slidesjs-pagination-item a:hover { background-position:0 -26px }
+
+#slider a:link, #slider a:visited { color:#333 }
+#slider a:hover, #slider a:active {color:#ffffff }
+
+.navbar { overflow:hidden }
+<!-- End SlidesJS Optional-->
+
+
+<!-- SlidesJS Required:These styles are required if you'd like a responsive slideshow -->
+
+
+/* For tablets & smart phones */
+@media (max-width:767px) { body { padding-left:20px; padding-right:20px; }
+.container { width:auto } }
+
+/* For smartphones */
+@media (max-width:480px) { .container { width:auto } }
+
+/* For smaller displays like laptops */
+@media (min-width:768px) and (max-width:979px) { .container { width:724px } }
+
+/* For larger displays */
+@media (min-width:1200px) { .container { width:1170px } }
